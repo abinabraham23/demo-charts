@@ -3,6 +3,16 @@ entries:
   testcm:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-08-19T07:51:35.042747696Z"
+    description: A Helm chart for Kubernetes
+    digest: 32369c17af5dee2c041f6af754a8cefa6d7c7b75e1f5599e1a7c7f1d5b1628e1
+    name: testcm
+    type: application
+    urls:
+    - https://github.com/abinabraham23/demo-charts/releases/download/testcm-0.1.1/testcm-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-08-16T13:09:05.873775622Z"
     description: A Helm chart for Kubernetes
     digest: b7055b7de3899bd625b247d037740209b7480e81e2569330e95881ced4a05d07
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/abinabraham23/demo-charts/releases/download/testcm-0.1.0/testcm-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-16T13:09:05.873780322Z"
+generated: "2022-08-19T07:51:35.042756496Z"
