@@ -5,8 +5,8 @@ metadata:
   labels:
     {{- include "testcm.app" . | indent 4 }}
 data:
-  drink: {{ .Values.favorite.drink | upper | quote }}
-  food: {{ .Values.favorite.food | upper | quote }}
+  drink: {{ .Values.favorite.drink | upper }}
+  food: {{ .Values.favorite.food | upper }}
 
   {{- with .Values.favorite }}
   drink_with: {{ .drink | quote }}
